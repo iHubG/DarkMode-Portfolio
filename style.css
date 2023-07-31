@@ -1,0 +1,488 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #28282B;
+}
+
+    /*ABOUT PAGE*/
+.about-box {
+    width: 100%;
+    border: 1px solid white;
+    padding: 2rem 2rem 2rem 2rem;
+   
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden; 
+ /*   border: 1px solid white; */
+}
+
+.name h1 {
+    color: #FFFAFA;
+    font-size: 20px;
+    margin: 0;
+    padding: 50px;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.name h1 {
+    font-size: 24px;
+}
+
+.nav-bar a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFAFA;
+    padding: 20px;
+}
+
+.nav-bar a:hover {
+    opacity: 0.7;
+}
+
+.nav-bar a:active {
+    opacity: 0.5;
+}
+
+.socmed-icons {
+    margin-top: 0px;
+    margin-right: 0px;
+    padding: 50px;
+}
+
+.socmed-icons img {
+    width: 30px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.socmed-icons img:hover {
+    opacity: 0.8;  
+    transform: scale(1.2);
+}
+
+.about-info-box {
+    margin-top: 2rem;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.profile-pic img {
+    box-shadow: 0 0 4px 1px #FFFAFA;
+    width: 60%;
+    border-radius: 60%;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.profile-pic img:hover {
+    transform:scale(1.2);
+}
+
+.info-text {
+    color: #FFFAFA;
+}
+
+.info-text h2 {
+    font-size: 2.2rem;
+    animation-name: headShake;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.info-text p {
+    font-size: 1.3rem;
+}
+
+.text-skills {
+    text-align: center;
+    font-size: 4rem;
+    color: #FFFAFA;
+}
+
+.box-skills {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    background-image: url(img/bgskills.jpg);
+    background-size: cover;
+    opacity: 1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    box-shadow: 0px 0px 2px 3px gray;
+}
+
+.box-skills img {
+    width: 100%;
+}
+
+.html {
+    text-align: center;
+    margin: 0;
+    width: 15%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 4px;
+    animation-name: shakeX;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.css {
+    text-align: center;
+    margin: 0;
+    width: 15%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 4px;
+    animation-name: shakeY;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.js {
+    text-align: center;
+    margin: 0;
+    width: 15%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 4px;
+    animation-name: shakeX;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+
+.about-name h2 {
+    margin-top: 200px;
+    color: #FFFAFA;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.horizontal-line hr {
+    width: 91%;
+    height: 3px;
+    background-color: gray;
+    margin-top: 200px;
+}
+
+.footer-box {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.footer-name {
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.footer-name p {
+    font-size: 18px;
+    position: relative;
+    bottom: 15px;
+    color: #FFFAFA;
+}
+
+.footer-icons {
+    margin-right: 40px;
+    padding: 20px;
+}
+
+.footer-icons img {
+    width: 30px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.footer-icons img:hover {
+    opacity: 0.8; 
+    transform: scale(1.2);
+}
+
+    /*PROJECTS PAGE*/
+.projects-name h2 {
+    margin-top: 200px;
+    color: #FFFAFA;
+    font-size: 4rem;
+    text-align: center;
+}
+
+    /*EXPERIENCE PAGE*/
+.experience-name h2{
+    margin-top: 200px;
+    color: #FFFAFA;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.vertical-box{
+/*  border: 2px solid black; */
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-box h2{
+    z-index: 1;
+    position: absolute;
+    bottom: -20px;
+    left: 190px;
+    font-size: 2rem;
+    color: #FFFAFA;
+}
+
+.current-background{
+    width: 70%;
+    padding: 30px;
+    height: 300px;
+    background-color: #28282B;
+    position: absolute;
+    bottom: -338px;
+    z-index: 1;
+    box-shadow: 0px 0px 5px 1px #FFFAFA;
+}
+
+.current-background p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+p.current-year{
+    font-size: 30px;
+}
+
+
+.senior-background{
+    width: 70%;
+    padding: 30px;
+    height: 300px;
+    background-color: #28282B;
+    position: absolute;
+    bottom: -840px;
+    z-index: 1;
+    box-shadow: 0px 0px 5px 1px #FFFAFA;
+}
+
+.senior-background p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+p.senior-year{
+    font-size: 30px;
+}
+
+
+.junior-background{
+    width: 70%;
+    padding: 30px;
+    height: 300px;
+    background-color: #28282B;
+    position: absolute;
+    bottom: -1340px;
+    z-index: 1;
+    box-shadow: 0px 0px 5px 1px #FFFAFA;
+}
+
+.junior-background p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+p.junior-year{
+    font-size: 30px;
+}
+
+.certificates-box{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.certificates-box h2{
+    margin-top: 200px;
+    font-size: 2rem;
+    position: relative;
+    bottom: -20px;
+    right: 350px;
+    color: #FFFAFA;
+}
+
+.html-certificate{
+    margin-top: 50px;
+    width: 50%;
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.html-certificate img{
+    width: 90%;
+    box-shadow: 0px 0px 2px 1px gray;
+}
+
+.download-box{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.download-box a:hover{
+    opacity: 1;
+}
+
+a.html-certi{
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FFFAFA;
+    text-decoration: none;
+    background-color: #FFFAFA;
+    opacity: 0.8;
+    color: #28282B;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+a.visit-link{
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FFFAFA;
+    text-decoration: none;
+    background-color: #FFFAFA;
+    opacity: 0.8;
+    color: #28282B;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+
+.css-certificate{
+    margin-top: 50px;
+    width: 50%;
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.css-certificate img{
+    width: 90%;
+    box-shadow: 0px 0px 2px 1px gray;
+}
+
+a.css-certi{
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FFFAFA;
+    text-decoration: none;
+    background-color: #FFFAFA;
+    opacity: 0.8;
+    color: #28282B;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+
+    /*CONTACT PAGE*/
+.contact-name h2 {
+    margin-top: 200px;
+    color: #FFFAFA;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contact-box {
+    margin-top: 100px;
+    margin: auto;
+    width: 70%;
+    height: 400px;
+    padding: 70px;
+    box-shadow: 0px 0px 4px 1px #FFFAFA;
+    color: #FFFAFA;
+}
+
+.contact-box :first-child {
+    font-size: 24px;
+}
+
+.contact-box :nth-child(2) {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.contact-box :nth-child(3) {
+    font-size: 18px;
+}
+
+.contact-box:last-child {
+    font-size: 18px;
+}
+
+.email {
+    font-size: 18px;
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #28282B;
+    background-color: #FFFAFA;
+    opacity: 0.8;
+}
+
+.email:hover {
+    opacity: 1;
+}
+  
