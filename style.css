@@ -12,7 +12,7 @@ body {
     /*ABOUT PAGE*/
 .about-box {
     width: 100%;
-    border: 1px solid white;
+   /* border: 1px solid white;*/
     padding: 2rem 2rem 2rem 2rem;
    
 }
@@ -72,6 +72,18 @@ nav {
 .socmed-icons img:hover {
     opacity: 0.8;  
     transform: scale(1.2);
+}
+
+.about-name h2 {
+    color: #FFFAFA;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.about-me-box {
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
 }
 
 .about-info-box {
@@ -178,14 +190,6 @@ nav {
     animation-duration: 3s;
 }
 
-
-.about-name h2 {
-    margin-top: 200px;
-    color: #FFFAFA;
-    font-size: 4rem;
-    text-align: center;
-}
-
 .horizontal-line hr {
     width: 91%;
     height: 3px;
@@ -238,15 +242,85 @@ nav {
     text-align: center;
 }
 
+.e-commerce-box {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*border: 1px solid white;*/
+}
+
+.e-commerce-box h2 {
+    margin-top: 80px;
+    position: relative;
+    bottom: -20px;
+    right: 330px;
+    font-size: 2rem;
+    color: #FFFAFA;
+}
+
+.clickee {
+    margin-top: 50px;
+    width: 50%;
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.clickee img {
+    width: 100%;
+    box-shadow: 0px 0px 2px 1px gray;
+    transition: 300ms;
+}
+
+.clickee img:hover {
+    transform: scale(1.1);
+}
+
+.download-box {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.download-box a:hover {
+    opacity: 1;
+}
+
+a.visit-web {
+    width: 160px;
+    height: 45px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FFFAFA;
+    text-decoration: none;
+    background-color: #FFFAFA;
+    opacity: 0.8;
+    color: #28282B;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+
+
     /*EXPERIENCE PAGE*/
-.experience-name h2{
+.experience-name h2 {
     margin-top: 200px;
     color: #FFFAFA;
     font-size: 4rem;
     text-align: center;
 }
 
-.vertical-box{
+.vertical-box {
 /*  border: 2px solid black; */
     height: 1500px;
     width: 100%;
@@ -255,8 +329,7 @@ nav {
     justify-content: center;
 }
 
-.vertical-box h2{
-    z-index: 1;
+.vertical-box h2 {
     position: absolute;
     bottom: -20px;
     left: 190px;
@@ -264,62 +337,59 @@ nav {
     color: #FFFAFA;
 }
 
-.current-background{
+.current-background {
     width: 70%;
     padding: 30px;
     height: 300px;
     background-color: #28282B;
     position: absolute;
     bottom: -338px;
-    z-index: 1;
     box-shadow: 0px 0px 5px 1px #FFFAFA;
 }
 
-.current-background p{
+.current-background p {
     margin-bottom: 20px;
     font-size: 20px;
     color: white;
 }
 
-p.current-year{
+p.current-year {
     font-size: 30px;
 }
 
 
-.senior-background{
+.senior-background {
     width: 70%;
     padding: 30px;
     height: 300px;
     background-color: #28282B;
     position: absolute;
     bottom: -840px;
-    z-index: 1;
     box-shadow: 0px 0px 5px 1px #FFFAFA;
 }
 
-.senior-background p{
+.senior-background p {
     margin-bottom: 20px;
     font-size: 20px;
     color: white;
 }
 
-p.senior-year{
+p.senior-year {
     font-size: 30px;
 }
 
 
-.junior-background{
+.junior-background {
     width: 70%;
     padding: 30px;
     height: 300px;
     background-color: #28282B;
     position: absolute;
     bottom: -1340px;
-    z-index: 1;
     box-shadow: 0px 0px 5px 1px #FFFAFA;
 }
 
-.junior-background p{
+.junior-background p {
     margin-bottom: 20px;
     font-size: 20px;
     color: white;
@@ -329,7 +399,7 @@ p.junior-year{
     font-size: 30px;
 }
 
-.certificates-box{
+.certificates-box {
     width: 100%;
     height: auto;
     padding: 20px;
@@ -339,7 +409,7 @@ p.junior-year{
     flex-direction: column;
 }
 
-.certificates-box h2{
+.certificates-box h2 {
     margin-top: 200px;
     font-size: 2rem;
     position: relative;
@@ -348,7 +418,7 @@ p.junior-year{
     color: #FFFAFA;
 }
 
-.html-certificate{
+.html-certificate {
     margin-top: 50px;
     width: 50%;
     height: 500px;
@@ -358,12 +428,12 @@ p.junior-year{
     flex-direction: column;
 }
 
-.html-certificate img{
+.html-certificate img {
     width: 90%;
     box-shadow: 0px 0px 2px 1px gray;
 }
 
-.download-box{
+.download-box {
     width: 90%;
     height: 100px;
     display: flex;
@@ -372,11 +442,11 @@ p.junior-year{
     justify-content: space-around;
 }
 
-.download-box a:hover{
+.download-box a:hover {
     opacity: 1;
 }
 
-a.html-certi{
+a.html-certi {
     width: 150px;
     height: 45px;
     padding: 10px;
@@ -390,7 +460,7 @@ a.html-certi{
     border-radius: 2px;
 }
 
-a.visit-link{
+a.visit-link {
     width: 150px;
     height: 45px;
     padding: 10px;
@@ -405,7 +475,7 @@ a.visit-link{
 }
 
 
-.css-certificate{
+.css-certificate { 
     margin-top: 50px;
     width: 50%;
     height: 500px;
@@ -415,12 +485,12 @@ a.visit-link{
     flex-direction: column;
 }
 
-.css-certificate img{
+.css-certificate img {
     width: 90%;
     box-shadow: 0px 0px 2px 1px gray;
 }
 
-a.css-certi{
+a.css-certi {
     width: 150px;
     height: 45px;
     padding: 10px;
